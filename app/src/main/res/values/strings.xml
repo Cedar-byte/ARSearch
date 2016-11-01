@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ARSearch</string>
+    <string name="again_according_to_the_exit">再按一次退出</string>
+    <string name="login_name">Hello world</string>
+
+    <string name="verifyCode_to_number">验证码短信已发送到</string>
+    <string name="clear_cache_success">清除缓存成功！</string>
+    <string name="old_pwd">输入原密码</string>
+    <string name="new_pwd">输入6-16位新密码，区分大小写</string>
+    <string name="confirm_pwd">确认新密码</string>
+    <string name="confirm_modify">确认修改</string>
+    <string name="different_pwd">两次密码输入不一致，请重新输入。</string>
+    <string name="location_fetching">Trying to find out where you are</string>
+    <string name="compass_accuracy_low">Please re-calibrate compass by waving your device in a figure 8 motion.</string>
+    <string name="poi_name">Name</string>
+    <string name="poi_description">Description</string>
+    <string name="poi_id">ID</string>
+
+    <string name="string_not_username">还没有账号？马上注册！</string>
+    <string name="string_forget_pwd">忘记密码</string>
+    <string name="string_pwd">密码</string>
+    <string name="string_login">登录</string>
+    <string name="string_register">注册</string>
+    <string name="string_mobile_num">手机号</string>
+</resources>

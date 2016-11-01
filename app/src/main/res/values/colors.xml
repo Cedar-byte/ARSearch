@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_white">#FFFFFFFF</color>
+    <color name="color_green">#FF43BB96</color>
+    <color name="color_green_text">#FF009688</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="gray_hint">#505050</color>
+    <color name="gray_text">#969696</color>
+    <color name="gray_text_item">#4A4A4A</color>
+    <color name="gray_toast_bg">#FF424242</color>
+    <color name="gray_logout_dialog_text">#8A000000</color>
+    <color name="gray_sliding_item_bg">#F7F7F7</color>
+    <color name="color_red_text">#F43A51</color>
+    <color name="gray_line">#F2F2F2</color>
+    <color name="gray_edit_hit">#FF9B9B9B</color>
+</resources>

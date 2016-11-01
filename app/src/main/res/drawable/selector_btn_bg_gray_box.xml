@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--按下去的背景-->
+    <item android:state_pressed="true" android:drawable="@drawable/item_btn_bg_gray_box_pressed"></item>
+    <!-- 默认背景 -->
+    <item android:drawable="@drawable/item_btn_bg_gray_box_def"></item>
+</selector>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/icon_bg">
+
+    <include layout="@layout/toolbar_"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1.填写手机号"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/color_green"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="38dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/color_green"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="2.输入验证码"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/color_green"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="38dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/gray_hint"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="3.设置密码"
+            android:textColor="@color/gray_hint"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_show_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_gravity="center_horizontal"
+        android:text="验证码短信已发送到"
+        android:textColor="@color/gray_hint"
+        android:textSize="12sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="27dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_code"/>
+
+        <EditText
+            android:id="@+id/edt_verifyCode"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="46dp"
+            android:background="@null"
+            android:hint="验证码"
+            android:maxLength="6"
+            android:inputType="number"
+            android:textSize="16sp"
+            android:textColor="@color/color_white"
+            android:textColorHint="@color/gray_hint"/>
+        <Button
+            android:id="@+id/btn_timecount"
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:text="59s"
+            android:textSize="10sp"
+            android:textColor="@color/green"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray_hint"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_send_verifyCode"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:enabled="false"
+        android:layout_marginTop="72dp"
+        android:text="提交验证码"
+        android:textColor="@color/gray_text"
+        android:textSize="16sp"
+        android:background="@drawable/selector_btn_bg_green"/>
+
+</LinearLayout>
